@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Desconhecido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você está sozinho em casa. É de madrugada quando você ouve um barulho na cozinha.</p>
+            <button class="btn-proximo" data-proximo="1">Ir até a cozinha.</button>
+            <button class="btn-proximo" data-proximo="2">Ficar no quarto.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você vai até a cozinha. Você encontra a janela quebrada. Você olha atráves da janela e observa um vulto no meio de arbustos.</p>
+            <button class="btn-proximo" data-proximo="3">Pegar uma faca na gaveta.</button>
+            <button class="btn-proximo" data-proximo="4">Voltar correndo pro quarto.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você fica no seu quarto. Você observa alguém te olhando pela fresta da sua porta.</p>
+            <button class="btn-proximo" data-proximo="5">Ir até a porta.</button>
+            <button class="btn-proximo" data-proximo="6">Se esconder debaixo das cobertas.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você pega a faca na cozinha. A sombra pula pela janela e vem te atacar, você luta com ela e ganha.</p>
+            <button class="btn-proximo" data-proximo="7">Você descobre que a sombra era uma capivara humana assassina, que estava foragida há anos. A polícia te agradece por pegar uns dos criminosos mais procurados do país.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você volta correndo pro quarto, tropeça num fio solto, bate a cabeça e morre.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você vai até a porta. Não tem nada.</p>
+            <button class="btn-proximo" data-proximo="7">Ir até a cozinha./button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você se esconde debaixo das cobertas, você observa a sombra se aproximando.</p>
+            <button class="btn-proximo" data-proximo="8">Tirar a coberta.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Quando você vai até a cozinha, vê apenas uma pequena capivara.</p>
+            <button class="btn-proximo" data-proximo="9">Ajudar</button>
+            <button class="btn-proximo" data-proximo="10">Ignorar</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você tira a coberta e vê apenas uma capivara.</p>
+            <button class="btn-proximo" data-proximo="7">Se aproximar dela.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você vai até ela e tenta ajuda-la, porém, ela toma uma forma humana e grotesca e vai pra cima de você.</p>
+            <button class="btn-proximo" data-proximo="11">Lutar.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você ignora ela. Ela fica brava, se torna um animal grotesco e amedrontador e vai pra cima de você.</p>
+            <button class="btn-proximo" data-proximo="12">Lutar.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você luta contra ela, apesar de assustadora, você é mais forte que ela. Você vence e leva ela até a polícia, que te dá uma recompensa por pegar uma das criminosas mais procuradas do país.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você luta contra ela. Você perde. Ela é muito forte.</p>
+            <button class="btn-proximo" data-proximo="11">Você morre.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
